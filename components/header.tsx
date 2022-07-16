@@ -5,13 +5,13 @@ const header: NextPage = () => {
     <div>
       
       <div className="text-center h-12 ">text text text text text </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-6">
         <img className="rounded-full w-32 h-32" src="/images/bow5.jpg" alt="" />
       </div>
 
       <div className="flex bg-cl bg-orange-300">
         <div className="flex-none w-1/6"></div>
-        <div className="flex grow h-14 w-4/6 ">
+        <div className="flex grow h-14 w-4/6 flex-wrap">
           <div className="m-auto font-semibold ">New Arrival</div>
           <div className="m-auto font-semibold ">All</div>
           <div className="m-auto font-semibold ">Event</div>

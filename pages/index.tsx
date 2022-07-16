@@ -13,8 +13,10 @@ const Home: NextPage = () => {
     <div className="font-sans">
       <Header />
       <MainSwiper />
-      <Product />
-      <Promotion />
+      <div className="px-4 sm:px-6 lg:px-8">
+        <Product />
+        <Promotion />
+      </div>
       <Footer />
     </div>
   )

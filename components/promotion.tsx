@@ -13,23 +13,23 @@ const promotion: NextPage = () => {
 
         {/* bg-orange-300 */}
         <div className="mt-6 mb-24">
-          <div className="flex h-[500px] ">
-            <div className="w-1/2 ">
+          <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-6 sm:grid-cols-2 xl:gap-x-8">
+            <div>
               <img
                   src="/images/promotion/promotion_1.png"
                   alt="promotion_1.png"
-                  className="rounded-lg"
+                  className="rounded-lg h-full"
                 />
             </div>
-            <div className="w-1/2 ">
-              <div className="h-1/2 ">
+            <div className="content-between grid gap-y-6">
+              <div>
               <img
                   src="/images/promotion/promotion_2.png"
                   alt="promotion_2.png"
                   className="rounded-lg"
                 />
               </div>
-              <div className="h-1/2 ">
+              <div>
               <img
                   src="/images/promotion/promotion_3.png"
                   alt="promotion_3.png"
