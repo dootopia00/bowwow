@@ -31,7 +31,7 @@ const MainSwiper: NextPage = () => {
       <SwiperSlide><img className="w-screen" src="/images/swiper/swiper3.jpg" alt="" /></SwiperSlide>
     </Swiper>
   </div>
-
+  
   )
 }
 
