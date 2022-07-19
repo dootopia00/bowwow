@@ -59,11 +59,11 @@ const product = {
 }
 const reviews = { href: '#', average: 4, totalCount: 117 }
 
-function classNames(...classes) {
+function classNames(...classes:any) {
   return classes.filter(Boolean).join(' ')
 }
 
-const detail: NextPage = () => {
+const Detail: NextPage = () => {
 
   const [selectedColor, setSelectedColor] = useState(product.colors[0])
   const [selectedSize, setSelectedSize] = useState(product.sizes[2])
@@ -316,4 +316,4 @@ const detail: NextPage = () => {
   )
 }
 
-export default detail
+export default Detail

@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-const mainSwiper: NextPage = () => {
+const MainSwiper: NextPage = () => {
   return (
     <div className="flex overflow-hidden">
       <Swiper
@@ -35,4 +35,4 @@ const mainSwiper: NextPage = () => {
   )
 }
 
-export default mainSwiper
+export default MainSwiper

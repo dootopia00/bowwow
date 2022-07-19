@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
 
-const footer: NextPage = () => {
+const Footer: NextPage = () => {
 
   return (
     <div className="bg-sky-900" >
@@ -40,4 +40,4 @@ const footer: NextPage = () => {
   )
 }
 
-export default footer
+export default Footer

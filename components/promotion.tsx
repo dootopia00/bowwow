@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
 
-const promotion: NextPage = () => {
+const Promotion: NextPage = () => {
 
   return (
     <div className="bg-white">
@@ -92,4 +92,4 @@ const promotion: NextPage = () => {
   )
 }
 
-export default promotion
+export default Promotion

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
-const product: NextPage = () => {
+const Product: NextPage = () => {
   return (
     <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:max-w-7xl">
@@ -237,4 +237,4 @@ const product: NextPage = () => {
   )
 }
 
-export default product
+export default Product

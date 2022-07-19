@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-const header: NextPage = () => {
+const Header: NextPage = () => {
   return (
     <div>
       
@@ -25,4 +25,4 @@ const header: NextPage = () => {
   )
 }
 
-export default header
+export default Header
