@@ -1,5 +1,5 @@
 ## NOTICE Architecture
-- git
+- git main branch
 - github Repository
 - github-actions
 - github-container-registry
