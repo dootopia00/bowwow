@@ -1,4 +1,4 @@
-## NOTICE Architecture
+## Architecture
 - git main branch
 - github Repository
 - github-actions
